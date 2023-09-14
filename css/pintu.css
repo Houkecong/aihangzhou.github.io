@@ -1,0 +1,104 @@
+#box {
+    height: 300px;
+    width: 300px;
+    left: 40%;
+    top: 20%;
+    position: absolute;
+    background-color: rgba(144, 231, 125, 0.552);
+    border: 5px solid rgba(144, 231, 125, 0.552);
+    overflow: hidden;
+    border-radius: 5%;
+    margin: 10px auto;
+    z-index: 2;
+}
+#wancheng{
+    left: 84%;
+	bottom: 5%;
+	width: 12%;
+	height: 8%;
+	background: url("../image/pintu/wancheng.webp");
+	background-repeat: no-repeat;
+	background-size: contain;
+	overflow: hidden;
+	position: absolute;
+	z-index: 2;
+}
+span {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    font-size: 50px;
+    text-align: center;
+    line-height: 100px;
+    color: #FFF;
+    user-select: none;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+#one {
+    top: 0;
+    left: 0;
+    background: url(../image/pintu/5.png);
+    background-size: 100% 100%;
+}
+
+#two {
+    top: 0;
+    left: 100px;
+    background: url(../image/pintu/7.png);
+    background-size: 100% 100%;
+}
+
+#three_pintu {
+    top: 0;
+    left: 200px;
+    background: url(../image/pintu/9.png);
+    background-size: 100% 100%;
+}
+
+#four {
+    top: 100px;
+    left: 0;
+    background: url(../image/pintu/1.png);
+    background-size: 100% 100%;
+}
+
+#five {
+    top: 100px;
+    left: 100px;
+    background: url(../image/pintu/2.png);
+    background-size: 100% 100%;
+}
+
+#six {
+    top: 100px;
+    left: 200px;
+    background: url(../image/pintu/4.png);
+    background-size: 100% 100%;
+}
+
+#seven {
+    top: 200px;
+    left: 0;
+    background: url(../image/pintu/3.png);
+    background-size: 100% 100%;
+}
+
+#eight {
+    top: 200px;
+    left: 100px;
+    background: url(../image/pintu/6.png);
+    background-size: 100% 100%;
+}
+
+#nine {
+    top: 200px;
+    left: 200px;
+    background: url(../image/pintu/8.png);
+    background-size: 100% 100%;
+}
+
+#box .cBox {
+    position: absolute;
+}

@@ -1,0 +1,86 @@
+#shuiguo{
+    top: 18%;
+    left: 10%;
+    width: 28%;
+    height: 70%;
+    overflow-y: hidden;
+    position: absolute;
+    z-index: 1;
+    border-radius: 3%;
+    background: url("../image/second/shuiguo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#biaoge{
+    top: 24%;
+    left: 55%;
+    width: 40%;
+    height: 70%;
+    overflow-y: hidden;
+    position: absolute;
+    z-index: 1;
+    border-radius: 3%;
+    background: url("../image/second/biaoge_kong.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#button_op{
+    left:42%;
+    top: 18%;
+    width: 14%;
+    height: 20%;
+    background: url("../image/first/button.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    position: absolute;
+    z-index: 2;
+
+}
+#button_op_word{
+    left:42%;
+    top: 10%;
+    width: 12%;
+    height: 20%;
+    overflow: hidden;
+    position: absolute;
+    z-index: 2;
+    color: white;
+    font-family: "word";
+    font-size: 200%;
+    text-align: center;
+
+}
+#jiantou{
+    left:42%;
+    top: 32%;
+    width: 15%;
+    height: 30%;
+    background: url("../image/second/jiantou.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    position: absolute;
+    z-index: 2;
+    font-size: 200%;
+
+}
+#ban{
+    width: 90%;
+    height: 40%;
+    top: 5%;
+    left: 5%;
+    position: absolute;
+    z-index: 1;
+    display: none;
+}
+#jvxing{
+    width: 100%;
+    height: 100%;
+    top: 5%;
+    left: 5%;
+    background-color: aliceblue;
+    opacity: 0.5;
+    position: absolute;
+    z-index: 1;
+}

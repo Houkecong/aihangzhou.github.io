@@ -1,0 +1,168 @@
+.back {
+
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    background: url("../image/first_page/back.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: hidden;
+    position: absolute;
+    z-index: 1;
+}
+
+.juanzhou {
+    left: 30%;
+    top: 30%;
+    width: 50%;
+    height: 65%;
+    opacity: 1;
+    background: url("../image/first_page/juanzhou2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    position: absolute;
+    z-index: 2;
+}
+
+#shan {
+    left: 34.5%;
+    top: 30%;
+    width: 20%;
+    height: 35%;
+    background: url("../image/first_page/shan.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    position: absolute;
+    z-index: 2;
+}
+
+#lei {
+    left: 42%;
+    top: 33%;
+    width: 12%;
+    height: 30%;
+    background: url("../image/first_page/lei.PNG");
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    position: absolute;
+    z-index: 2;
+}
+
+#san {
+    left: 46%;
+    top: 50%;
+    width: 18%;
+    height: 20%;
+    background: url("../image/first_page/san.PNG");
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    position: absolute;
+    z-index: 2;
+}
+
+#qiu {
+    left: 58%;
+    top: 30%;
+    width: 15%;
+    height: 20%;
+    background: url("../image/first_page/qiu.PNG");
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    position: absolute;
+    z-index: 2;
+}
+#yun1{
+    left: 33%;
+    top: 45%;
+    width: 20%;
+    height: 25%;
+    background: url("../image/first_page/yun.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    position: absolute;
+    z-index: 2;
+    animation: css1 10s infinite;
+}
+@keyframes css1 {
+    0%{
+        scale: 1.0;
+    }
+    50%{
+        left: 30%;
+        scale: 1.2;
+    }
+    100%{
+        left: 33%;
+        scale: 1.0;
+    }
+}
+#yun2{
+    left: 63%;
+    top: 35%;
+    width: 20%;
+    height: 25%;
+    background: url("../image/first_page/yun.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    position: absolute;
+    z-index: 2;
+    animation: css2 10s infinite;
+
+}
+@keyframes css2 {
+    0%{
+        scale: 1.0;
+    }
+    50%{
+        left: 67%;
+        scale: 1.2;
+    }
+    100%{
+        left: 63%;
+        scale: 1.0;
+    }
+}
+#mo{
+    left: 8%;
+    top: 0%;
+    width: 35%;
+    height: 35%;
+    background: url("../image/first_page/mo.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    position: absolute;
+    z-index: 2;
+}
+
+#word{
+    left: 13%;
+    top: 9%;
+    width: 50%;
+    height: 40%;
+    background: url("../image/first_page/word.PNG");
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    position: absolute;
+    z-index: 2;
+}
+#kaishi{
+    left: 84%;
+    bottom: 5%;
+    width: 12%;
+    height: 8%;
+    background: url("../image/first_page/button.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    position: absolute;
+    z-index: 2;
+}

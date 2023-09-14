@@ -1,0 +1,160 @@
+#cong{
+    top: 48%;
+    left: 5%;
+    width: 20%;
+    height: 50%;
+    background: url("../image/cong_1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow-y: hidden;
+    position: absolute;
+    z-index: 2;
+}
+#cong_1{
+    top: 59%;
+    left: 35%;
+    width: 8%;
+    height: 8%;
+    background: url("../image/cong.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow-y: hidden;
+    position: absolute;
+    z-index: 2;
+}
+#word{
+    top: 63%;
+    left: 35%;
+    width: 50%;
+    height: 25%;
+    overflow-y: hidden;
+    position: absolute;
+    z-index: 2;
+    font-family: "word";
+    word-wrap: break-word;
+    word-break: break-all;
+    font-size: 180%;
+}
+#word_end{
+    top: 80%;
+    left: 40%;
+    width: 50%;
+    height: 25%;
+    overflow-y: hidden;
+    position: absolute;
+    z-index: 2;
+    font-family: "word";
+    word-wrap: break-word;
+    word-break: break-all;
+    font-size: 180%;
+}
+#dian{
+    top: 85%;
+    left: 85%;
+    width: 8%;
+    height: 8%;
+    background: url("../image/jieshao/dian.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow-y: hidden;
+    position: absolute;
+    z-index: 2;
+}
+#chen{
+    top: 48%;
+    left: 5%;
+    width: 20%;
+    height: 50%;
+    background: url("../image/chen_1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow-y: hidden;
+    position: absolute;
+    z-index: 2;
+}
+#chen_1{
+    top: 59%;
+    left: 35%;
+    width: 8%;
+    height: 8%;
+    background: url("../image/chen.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow-y: hidden;
+    position: absolute;
+    z-index: 2;
+}
+#lian{
+    top: 48%;
+    left: 5%;
+    width: 20%;
+    height: 50%;
+    background: url("../image/lian_1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow-y: hidden;
+    position: absolute;
+    z-index: 2;
+}
+#lian_1{
+    top: 59%;
+    left: 35%;
+    width: 8%;
+    height: 8%;
+    background: url("../image/lian.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow-y: hidden;
+    position: absolute;
+    z-index: 2;
+}
+
+#cloud_left{
+    top: -20%;
+    left: -10%;
+    width: 180%;
+    height: 200%;
+    background: url("../image/jieshao/yun1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow-y: hidden;
+    position: absolute;
+    z-index: 2;
+    animation: move1 6s;
+}
+
+#cloud_right{
+    top: -20%;
+    left: -40%;
+    width: 180%;
+    height: 200%;
+    background: url("../image/jieshao/yun2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow-y: hidden;
+    position: absolute;
+    z-index: 2;
+    animation: move2 6s;
+}
+#tip_1{
+    left: 25%;
+    top: 0%;
+    width: 50%;
+    height:40%;
+    position: absolute;
+    color: black;
+    font-family: word;
+    font-size: 1000%;
+    z-index: 5;
+    text-align: center;
+}
+@keyframes move1 {
+    100%{
+        left: -200%;
+    }
+}
+@keyframes move2 {
+    100%{
+        left: 220%;
+    }
+}

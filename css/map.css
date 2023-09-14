@@ -1,0 +1,249 @@
+#shan{
+    top: 20%;
+    left: 15%;
+    width: 35%;
+    height: 50%;
+    background: url("../image/first_page/shan.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow-y: hidden;
+    position: absolute;
+    z-index: 3;
+}
+
+#lei{
+    top: 30%;
+    left: 20%;
+    width: 17%;
+    height: 35%;
+    background: url("../image/map/lei.PNG");
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow-y: hidden;
+    position: absolute;
+    z-index: 4;
+}
+#lei:hover{
+    filter: drop-shadow(10px 10px 10px rgb(162, 221, 242));
+    scale: 1.1;
+}
+#yi{
+    top: 67%;
+    left: 25%;
+    width: 9%;
+    height: 6%;
+    background: url("../image/map/yi.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow-y: hidden;
+    position: absolute;
+    z-index: 4;
+}
+#tong1{
+    top: 58%;
+    left: 30%;
+    width: 8%;
+    height: 15%;
+    background: url("../image/map/tongguan.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow-y: hidden;
+    position: absolute;
+    z-index: 4;
+    display: none;
+    
+}
+#san{
+    top: 50%;
+    left: 40%;
+    width: 30%;
+    height: 30%;
+    background: url("../image/map/san.PNG");
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow-y: hidden;
+    position: absolute;
+    z-index: 4;
+}
+#san:hover{
+    filter: drop-shadow(10px 10px 10px rgb(162, 221, 242));
+    scale: 1.1;
+}
+#san1{
+    top: 50%;
+    left: 40%;
+    width: 30%;
+    height: 30%;
+    background: url("../image/map/yun1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow-y: hidden;
+    position: absolute;
+    z-index: 4;
+}
+#san2{
+    top: 50%;
+    left: 40%;
+    width: 30%;
+    height: 30%;
+    background: url("../image/map/yun2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow-y: hidden;
+    position: absolute;
+    z-index: 4;
+}
+#er{
+    top: 82%;
+    left: 50%;
+    width: 9%;
+    height: 6%;
+    background: url("../image/map/er.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow-y: hidden;
+    position: absolute;
+    z-index: 4;
+}
+#tong2{
+    top: 75%;
+    left: 56%;
+    width: 8%;
+    height: 15%;
+    background: url("../image/map/tongguan.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow-y: hidden;
+    position: absolute;
+    z-index: 4;
+    display: none;
+    
+}
+#qiu{
+    top: 18%;
+    left: 60%;
+    width: 20%;
+    height: 30%;
+    background: url("../image/map/qiu.PNG");
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow-y: hidden;
+    position: absolute;
+    z-index: 4;
+}
+#qiu:hover{
+    filter: drop-shadow(10px 10px 10px rgb(162, 221, 242));
+    scale: 1.1;
+}
+#qiu1{
+    top: 18%;
+    left: 55%;
+    width: 30%;
+    height: 30%;
+    background: url("../image/map/yun1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow-y: hidden;
+    position: absolute;
+    z-index: 4;
+}
+#qiu2{
+    top: 18%;
+    left: 55%;
+    width: 30%;
+    height: 30%;
+    background: url("../image/map/yun2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow-y: hidden;
+    position: absolute;
+    z-index: 4;
+}
+#three{
+    top: 50%;
+    left: 66%;
+    width: 9%;
+    height: 6%;
+    background: url("../image/map/san.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow-y: hidden;
+    position: absolute;
+    z-index: 4;
+}
+#tong3{
+    top: 42%;
+    left: 72%;
+    width: 8%;
+    height: 15%;
+    background: url("../image/map/tongguan.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow-y: hidden;
+    position: absolute;
+    z-index: 4;
+    display: none;
+    
+}
+#cloud_left{
+    top: -20%;
+    left: -10%;
+    width: 180%;
+    height: 200%;
+    background: url("../image/jieshao/yun1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow-y: hidden;
+    position: absolute;
+    z-index: 2;
+    animation: move1 6s;
+}
+
+#cloud_right{
+    top: -20%;
+    left: -40%;
+    width: 180%;
+    height: 200%;
+    background: url("../image/jieshao/yun2.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow-y: hidden;
+    position: absolute;
+    z-index: 2;
+    animation: move2 6s;
+}
+#tip_1{
+    left: 25%;
+    top: 0%;
+    width: 50%;
+    height:40%;
+    position: absolute;
+    color: black;
+    font-family: word;
+    font-size: 1000%;
+    z-index: 5;
+    text-align: center;
+}
+@keyframes move1 {
+    100%{
+        left: -200%;
+    }
+}
+@keyframes move2 {
+    100%{
+        left: 220%;
+    }
+}
+#jieshu{
+    left: 84%;
+    bottom: 5%;
+    width: 12%;
+    height: 8%;
+    background: url("../image/jieshu.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    position: absolute;
+    z-index: 2;
+    display: none;
+}
