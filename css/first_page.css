@@ -166,3 +166,17 @@
     position: absolute;
     z-index: 2;
 }
+
+#xiazai{
+    top: 80%;
+    left: 40%;
+    width: 50%;
+    height: 25%;
+    overflow-y: hidden;
+    position: absolute;
+    z-index: 2;
+    font-family: "word";
+    word-wrap: break-word;
+    word-break: break-all;
+    font-size: 180%;
+}
