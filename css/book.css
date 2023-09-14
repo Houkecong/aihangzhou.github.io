@@ -11,7 +11,8 @@
 body {
 	width: 100%;
 	min-width: 1440px;
-	height: 730px;
+	min-height: 730px;
+	height:100%;
 	margin: 0;
 	position: relative;
 	display: flex;
