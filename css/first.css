@@ -22,9 +22,8 @@
     z-index: 3;
     color: aliceblue;
     font-family: word;
-    font-size: larger;
+    font-size: 120%;
     display: none;
-    text-align: center;
 }
 #op2{
     left: 48%;
@@ -49,9 +48,8 @@
     z-index: 3;
     color: aliceblue;
     font-family: word;
-    font-size: larger;
+    font-size: 120%;
     display: none;
-    text-align: center;
 }
 #op3{
     left: 66%;
@@ -76,7 +74,6 @@
     z-index: 3;
     color: aliceblue;
     font-family: word;
-    font-size: larger;
+    font-size: 120%;
   display: none;
-    text-align: center;
 }
